@@ -10,7 +10,7 @@
 setlocale(LC_TIME, 'tr_TR.UTF-8'); // setlocale(LC_ALL, 'tr_TR.UTF-8', 'tr_TR', 'tr', 'turkish'); kullanılabilir.
 date_default_timezone_set('Europe/Istanbul');
 
-// strftime("Tarih: %d %B %Y %A Saat: %H:%M:%S"); kullanılabilir.
+// strftime("Tarih: %d %B %Y %A - Saat: %H:%M:%S"); kullanılabilir.
 
 // Haftanın Günlerinin ve Ayların tamamı Türkçe'ye çevirilmiştir.
 $weekdays = array('Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi', 'Pazar');
