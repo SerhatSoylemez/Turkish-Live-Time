@@ -19,7 +19,7 @@ $months = array('Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz'
 $dtime1 = date('j ') . $months[date('m') - 1] . date(' Y ') . $weekdays[date('N') - 1];
 $dtime2 = date('H:i:s');
 
-echo "Tarih: <span>" . $dtime1 .  "</span><span>Saat: " . $dtime2 . "</span>";
+echo "Tarih: <span>" . $dtime1 .  "</span>Saat: <span>" . $dtime2 . "</span>";
 // PHP dosyası Ajax ile çağırılmalı
 ?>
 
