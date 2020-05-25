@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
 
 <script>
 var otomatik_yenile = setInterval(
@@ -17,7 +17,7 @@ var otomatik_yenile = setInterval(
 <body>
 
 <?php
-echo '<div id="yenile"></div>'
+echo '<div id="yenile" ></div>'
 ?>
 
 </body>
