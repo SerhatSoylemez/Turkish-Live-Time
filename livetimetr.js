@@ -1,3 +1,4 @@
+// Tarih ve Saati browser bazlı göstermektedir.
 function showTime() {
 var d = new Date();
 
